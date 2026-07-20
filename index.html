@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Doğan Arslanoğlu</title>
+  <meta name="description" content="Doğan Arslanoğlu — art and media educator. Teaching After the Feed, classroomtools.io, and other projects on teaching in an algorithmic culture." />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Doğan Arslanoğlu" />
+  <meta property="og:description" content="Art and media educator. Teaching After the Feed, classroomtools.io, and other projects on teaching in an algorithmic culture." />
+  <meta property="og:url" content="https://dogan.education/" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+
+  <style>
+    :root {
+      --bg: #fdfdfb;
+      --text: #1b1b19;
+      --muted: #6d6a63;
+      --link: #2456c4;
+      --rule: #e7e4dd;
+      --avatar-bg: #efece4;
+      --avatar-ink: #3a382f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #15151a;
+        --text: #e9e6df;
+        --muted: #9c988e;
+        --link: #8bb1f5;
+        --rule: #2b2b31;
+        --avatar-bg: #24242b;
+        --avatar-ink: #c9c5ba;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html { -webkit-text-size-adjust: 100%; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Charter, "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+      font-size: 19px;
+      line-height: 1.62;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .wrap {
+      max-width: 664px;
+      margin: 0 auto;
+      padding: 68px 26px 96px;
+    }
+
+    /* ---- Header ---- */
+    header { margin-bottom: 40px; }
+
+    .avatar {
+      width: 92px;
+      height: 92px;
+      border-radius: 50%;
+      background: var(--avatar-bg);
+      color: var(--avatar-ink);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 34px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      margin-bottom: 22px;
+      overflow: hidden;
+      user-select: none;
+    }
+    /* To use a real photo instead of the monogram, replace the .avatar <div>
+       in the markup with:  <img class="avatar" src="portrait.jpg" alt="Doğan Arslanoğlu" />
+       (any square-ish image works; it will be cropped to a circle). */
+    img.avatar { object-fit: cover; }
+
+    h1 {
+      font-size: 34px;
+      line-height: 1.1;
+      margin: 0 0 6px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+
+    .role {
+      margin: 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    /* ---- Intro ---- */
+    .intro {
+      margin: 30px 0 8px;
+      font-size: 19px;
+    }
+    .intro a { font-weight: 600; }
+
+    /* ---- Sections ---- */
+    section { margin-top: 42px; }
+
+    .label {
+      font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin: 0 0 16px;
+      padding-bottom: 9px;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    ul.items {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul.items > li {
+      margin: 0 0 15px;
+    }
+    ul.items > li:last-child { margin-bottom: 0; }
+
+    .item-title { font-weight: 600; }
+
+    .desc { color: var(--muted); }
+
+    /* nested tool list under classroomtools.io */
+    .sub {
+      list-style: none;
+      margin: 14px 0 0;
+      padding: 0 0 0 18px;
+      border-left: 2px solid var(--rule);
+    }
+    .sub > li { margin: 0 0 11px; font-size: 17.5px; }
+    .sub > li:last-child { margin-bottom: 0; }
+
+    /* ---- Links ---- */
+    a {
+      color: var(--link);
+      text-decoration: none;
+      text-underline-offset: 2px;
+    }
+    a:hover { text-decoration: underline; }
+
+    /* ---- Footer ---- */
+    footer {
+      margin-top: 54px;
+      padding-top: 22px;
+      border-top: 1px solid var(--rule);
+      color: var(--muted);
+      font-size: 17px;
+    }
+    footer a { color: var(--link); }
+
+    @media (max-width: 480px) {
+      .wrap { padding: 44px 20px 72px; }
+      body { font-size: 18px; }
+      h1 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <!-- Swap this monogram for a photo any time: replace the div below with
+           <img class="avatar" src="portrait.jpg" alt="Doğan Arslanoğlu" /> -->
+      <div class="avatar" aria-hidden="true">DA</div>
+      <h1>Doğan Arslanoğlu</h1>
+      <p class="role">Art &amp; media educator · teaching in an algorithmic culture</p>
+    </header>
+
+    <p class="intro">
+      I teach art, media, and design, and I build tools for the classroom. My work sits at the
+      intersection of arts pedagogy, media studies, and the attention economy — how we teach sustained
+      attention, close looking, and making after the feed. My action-research project,
+      <a href="https://classroomtools.io/research">Teaching After the Feed</a>, compares two instructional
+      models — teaching <em>with</em> the feed and <em>against</em> it — and the tools I make, collected at
+      <a href="https://classroomtools.io">classroomtools.io</a>, come out of that inquiry.
+    </p>
+
+    <section>
+      <h2 class="label">Research</h2>
+      <ul class="items">
+        <li>
+          <a class="item-title" href="https://classroomtools.io/research">Teaching After the Feed</a>
+          <span class="desc">— an action-research project comparing two instructional models for teaching in algorithmic culture.</span>
+        </li>
+        <li>
+          <a class="item-title" href="https://course-design-workshop.vercel.app">Course Design in an Age of Algorithmic Attention</a>
+          <span class="desc">— a workshop on designing courses that hold attention, with live in-class demos.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="label">classroomtools.io</h2>
+      <ul class="items">
+        <li>
+          <a class="item-title" href="https://classroomtools.io">classroomtools.io</a>
+          <span class="desc">— a showcase of research-driven classroom tools built from Teaching After the Feed.</span>
+          <ul class="sub">
+            <li>
+              <a class="item-title" href="https://github.com/ohwowgreat/close-reader">Close Reader</a>
+              <span class="desc">— live annotation: students tag and mark up any shared text in real time.</span>
+            </li>
+            <li>
+              <a class="item-title" href="https://constellation-board-six.vercel.app">Constellation Board</a>
+              <span class="desc">— a Warburg-inspired board for arranging images in relation and finding patterns.</span>
+            </li>
+            <li>
+              <a class="item-title" href="https://curatewith.art">Open Archive</a>
+              <span class="desc">— a class-built, revisitable image bank drawn from open museum collections.</span>
+            </li>
+            <li>
+              <a class="item-title" href="https://github.com/ohwowgreat/attention-heatmap">Attention Heatmap</a>
+              <span class="desc">— visualises where a class looks first on an image, poster, or artwork.</span>
+            </li>
+            <li>
+              <a class="item-title" href="https://github.com/ohwowgreat/jpegdegradation">JPEG Degradation</a>
+              <span class="desc">— makes lossy compression legible by running the degradation sequence in view.</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="label">Apps &amp; platforms</h2>
+      <ul class="items">
+        <li>
+          <a class="item-title" href="https://lms-app-lime-eight.vercel.app">Cadence LMS</a>
+          <span class="desc">— a modern, teacher-facing learning management system for any subject or course.</span>
+        </li>
+        <li>
+          <a class="item-title" href="https://github.com/ohwowgreat/Lockdown-Browser">ExamLock</a>
+          <span class="desc">— a secure in-class exam web app with a teacher dashboard and student lockdown mode.</span>
+        </li>
+        <li>
+          <a class="item-title" href="https://github.com/ohwowgreat/media-studies-intro">Media Studies (Cambridge 9607)</a>
+          <span class="desc">— a feed-style intro page for the Cambridge Media Studies syllabus.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 class="label">Teaching materials</h2>
+      <ul class="items">
+        <li>
+          <a class="item-title" href="https://github.com/ohwowgreat/teaching-materials">Art Appreciation</a>
+          <span class="desc">— lesson plans and teaching materials for an art appreciation course.</span>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="mailto:dogan.arslanoglu@gmail.com">dogan.arslanoglu@gmail.com</a>
+      &nbsp;·&nbsp;
+      <a href="https://github.com/ohwowgreat">GitHub</a>
+    </footer>
+
+  </div>
+</body>
+</html>
