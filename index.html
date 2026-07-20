@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Doğan Arslanoğlu</title>
-  <meta name="description" content="Doğan Arslanoğlu — art and media educator. Teaching After the Feed, classroomtools.io, and other projects on teaching in an algorithmic culture." />
+  <meta name="description" content="Doğan Arslanoğlu, art and media educator. Teaching After the Feed, classroomtools.io, and other projects on teaching in an algorithmic culture." />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
@@ -97,13 +97,14 @@
 
     /* ---- Intro ---- */
     .intro {
-      margin: 30px 0 8px;
+      margin: 30px 0 0;
       font-size: 19px;
     }
+    .intro + .intro { margin-top: 18px; }
     .intro a { font-weight: 600; }
 
     /* ---- Sections ---- */
-    section { margin-top: 42px; }
+    section { margin-top: 44px; }
 
     .label {
       font-family: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
@@ -174,28 +175,41 @@
            <img class="avatar" src="portrait.jpg" alt="Doğan Arslanoğlu" /> -->
       <div class="avatar" aria-hidden="true">DA</div>
       <h1>Doğan Arslanoğlu</h1>
-      <p class="role">Art &amp; media educator · teaching in an algorithmic culture</p>
+      <p class="role">Art and media educator</p>
     </header>
 
     <p class="intro">
-      I teach art, media, and design, and I build tools for the classroom. My work sits at the
-      intersection of arts pedagogy, media studies, and the attention economy — how we teach sustained
-      attention, close looking, and making after the feed. My action-research project,
-      <a href="https://classroomtools.io/research">Teaching After the Feed</a>, compares two instructional
-      models — teaching <em>with</em> the feed and <em>against</em> it — and the tools I make, collected at
-      <a href="https://classroomtools.io">classroomtools.io</a>, come out of that inquiry.
+      I teach art, media studies, and design, and I build software for the classroom. My work
+      concerns the conditions of attention in algorithmic culture: what it means to teach sustained
+      looking, close reading, and deliberate making to students whose perceptual habits are formed
+      by the feed. I take the feed seriously as a cultural form rather than treating it only as a
+      distraction, and I ask what instruction owes to it, what instruction must defend against it,
+      and how a classroom can hold both positions at once.
+    </p>
+
+    <p class="intro">
+      My current action-research project, <a href="https://classroomtools.io/research">Teaching
+      After the Feed</a>, examines this question empirically. It compares two instructional models:
+      one that works against the feed, cultivating slowness and sustained attention on a single
+      object, and one that works with it, adapting the feed’s grammar of juxtaposition,
+      recombination, and montage to pedagogical ends. The classroom tools I build, collected at
+      <a href="https://classroomtools.io">classroomtools.io</a>, are instruments of that inquiry.
+      Each tool operationalizes one of the two models so that they can be observed and compared in
+      ordinary lessons.
     </p>
 
     <section>
       <h2 class="label">Research</h2>
       <ul class="items">
         <li>
-          <a class="item-title" href="https://classroomtools.io/research">Teaching After the Feed</a>
-          <span class="desc">— an action-research project comparing two instructional models for teaching in algorithmic culture.</span>
+          <a class="item-title" href="https://classroomtools.io/research">Teaching After the Feed</a><span class="desc">.
+          An action-research project comparing two instructional models for teaching in algorithmic
+          culture, one working with the feed and one working against it.</span>
         </li>
         <li>
-          <a class="item-title" href="https://course-design-workshop.vercel.app">Course Design in an Age of Algorithmic Attention</a>
-          <span class="desc">— a workshop on designing courses that hold attention, with live in-class demos.</span>
+          <a class="item-title" href="https://course-design-workshop.vercel.app">Course Design in an Age of Algorithmic Attention</a><span class="desc">.
+          A workshop on designing courses that hold attention, with live demonstrations drawn from
+          media studies and chemistry teaching.</span>
         </li>
       </ul>
     </section>
@@ -204,24 +218,28 @@
       <h2 class="label">classroomtools.io</h2>
       <ul class="items">
         <li>
-          <a class="item-title" href="https://classroomtools.io">classroomtools.io</a>
-          <span class="desc">— a showcase of research-driven classroom tools built from Teaching After the Feed.</span>
+          <a class="item-title" href="https://classroomtools.io">classroomtools.io</a><span class="desc">.
+          A public collection of the classroom tools built from Teaching After the Feed.</span>
           <ul class="sub">
             <li>
-              <a class="item-title" href="https://github.com/ohwowgreat/close-reader">Close Reader</a>
-              <span class="desc">— live annotation: students tag and mark up any shared text in real time.</span>
+              <a class="item-title" href="https://github.com/ohwowgreat/close-reader">Close Reader</a><span class="desc">.
+              A live annotation tool. Students tag and annotate any shared text in real time, and
+              the class’s readings accumulate on screen as they work.</span>
             </li>
             <li>
-              <a class="item-title" href="https://constellation-board-six.vercel.app">Constellation Board</a>
-              <span class="desc">— a Warburg-inspired board for arranging images in relation and finding patterns.</span>
+              <a class="item-title" href="https://constellation-board-six.vercel.app">Constellation Board</a><span class="desc">.
+              A Warburg-inspired board for arranging images in relation to one another and finding
+              patterns across them.</span>
             </li>
             <li>
-              <a class="item-title" href="https://github.com/ohwowgreat/attention-heatmap">Attention Heatmap</a>
-              <span class="desc">— visualises where a class looks first on an image, poster, or artwork.</span>
+              <a class="item-title" href="https://github.com/ohwowgreat/attention-heatmap">Attention Heatmap</a><span class="desc">.
+              Visualises where a class looks first on an image, poster, or artwork, aggregating
+              responses live as students submit them.</span>
             </li>
             <li>
-              <a class="item-title" href="https://github.com/ohwowgreat/jpegdegradation">JPEG Degradation</a>
-              <span class="desc">— makes lossy compression legible by running the degradation sequence in view.</span>
+              <a class="item-title" href="https://github.com/ohwowgreat/jpegdegradation">JPEG Degradation</a><span class="desc">.
+              Makes lossy compression legible by running the degradation sequence in view of the
+              class.</span>
             </li>
           </ul>
         </li>
@@ -232,16 +250,18 @@
       <h2 class="label">Apps &amp; platforms</h2>
       <ul class="items">
         <li>
-          <a class="item-title" href="https://lms-app-lime-eight.vercel.app">Cadence LMS</a>
-          <span class="desc">— a modern, teacher-facing learning management system for any subject or course.</span>
+          <a class="item-title" href="https://lms-app-lime-eight.vercel.app">Cadence LMS</a><span class="desc">.
+          A modern, teacher-facing learning management system for any subject or course.</span>
         </li>
         <li>
-          <a class="item-title" href="https://github.com/ohwowgreat/Lockdown-Browser">ExamLock</a>
-          <span class="desc">— a secure in-class exam web app with a teacher dashboard and student lockdown mode.</span>
+          <a class="item-title" href="https://curatewith.art">curatewith.art</a><span class="desc">.
+          A collaborative art-browsing tool built on open museum collections. Classes search across
+          five institutions at once and build shared boards together in real time.</span>
         </li>
         <li>
-          <a class="item-title" href="https://curatewith.art">curatewith.art</a>
-          <span class="desc">— a collaborative tool for browsing open museum collections and building shared boards in real time.</span>
+          <a class="item-title" href="https://github.com/ohwowgreat/Lockdown-Browser">ExamLock</a><span class="desc">.
+          A secure in-class examination web app with a teacher dashboard and a student lockdown
+          interface.</span>
         </li>
       </ul>
     </section>
@@ -250,8 +270,8 @@
       <h2 class="label">Teaching materials</h2>
       <ul class="items">
         <li>
-          <a class="item-title" href="https://github.com/ohwowgreat/teaching-materials">Art Appreciation</a>
-          <span class="desc">— lesson plans and teaching materials for an art appreciation course.</span>
+          <a class="item-title" href="https://github.com/ohwowgreat/teaching-materials">Art Appreciation</a><span class="desc">.
+          Lesson plans and teaching materials for an art appreciation course.</span>
         </li>
       </ul>
     </section>
