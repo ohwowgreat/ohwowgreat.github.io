@@ -12,55 +12,93 @@
   <meta property="og:url" content="https://dogan.education/research.html" />
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="wrap">
 
-    <nav class="top" aria-label="Site">
-      <a class="site" href="index.html">Doğan Arslanoğlu</a>
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="research.html" aria-current="page">Research</a></li>
-        <li><a href="software.html">Software</a></li>
-      </ul>
-    </nav>
+  <div class="topbar">
+    <a href="index.html">Doğan Arslanoğlu</a>
+  </div>
 
-    <h1 class="page-title">Research</h1>
+  <div class="frame">
 
-    <section>
-      <h2 class="label">Teaching After the Feed</h2>
-      <p>
-        An action-research project on teaching in algorithmic culture, run inside my own courses.
-        The habits students bring to a text or an image are trained elsewhere, by systems built
-        to keep them scrolling, and the project asks what those habits mean for a classroom and
-        what a teacher can do in response.
-      </p>
-      <p>
-        The software at <a href="https://classroomtools.io">classroomtools.io</a> began here and
-        doubles as instrumentation: the heatmaps and the shared annotation records show where a
-        class looks and what it marks. Findings and write-ups are collected on the
-        <a href="https://classroomtools.io/research">project site</a>.
-      </p>
-    </section>
+    <aside class="sidebar">
+      <nav aria-label="Site">
+        <div class="group">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="research.html" aria-current="page">Research</a></li>
+            <li><a href="software.html">Software</a></li>
+          </ul>
+        </div>
+        <div class="group group-extra">
+          <p class="nav-label">Projects</p>
+          <ul>
+            <li><a href="https://classroomtools.io">classroomtools.io</a></li>
+            <li><a href="https://curatewith.art">curatewith.art</a></li>
+            <li><a href="https://lms-app-lime-eight.vercel.app">Cadence LMS</a></li>
+            <li><a href="https://github.com/ohwowgreat/Lockdown-Browser">ExamLock</a></li>
+          </ul>
+        </div>
+        <div class="group group-extra">
+          <p class="nav-label">Elsewhere</p>
+          <ul>
+            <li><a href="https://github.com/ohwowgreat">GitHub</a></li>
+            <li><a href="mailto:dogan.arslanoglu@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
 
-    <section>
-      <h2 class="label">Course Design in an Age of Algorithmic Attention</h2>
-      <p>
-        A workshop for teachers on designing courses that hold attention, with live
-        demonstrations drawn from media studies and chemistry teaching. The
-        <a href="https://course-design-workshop.vercel.app">workshop</a> and its
-        <a href="https://github.com/ohwowgreat/course-design-workshop">materials</a> are public.
-      </p>
-    </section>
+    <main>
 
-    <footer>
-      <a href="mailto:dogan.arslanoglu@gmail.com">dogan.arslanoglu@gmail.com</a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/ohwowgreat">GitHub</a>
-    </footer>
+      <section>
+        <p class="kicker">Action research</p>
+        <h1>Teaching After the Feed</h1>
+        <p>
+          An action-research project on teaching in algorithmic culture, run inside my own
+          courses. The habits students bring to a text or an image are trained elsewhere, by
+          systems built to keep them scrolling, and the project asks what those habits mean
+          for a classroom and what a teacher can do in response.
+        </p>
+        <p>
+          The software at <a href="https://classroomtools.io">classroomtools.io</a> began here
+          and doubles as instrumentation: the heatmaps and the shared annotation records show
+          where a class looks and what it marks. Findings and write-ups are collected on the
+          <a href="https://classroomtools.io/research">project site</a>.
+        </p>
+      </section>
+
+      <section>
+        <p class="bold-label">Presentations</p>
+        <p>
+          <span class="tag">Workshop</span>
+          Course Design in an Age of Algorithmic Attention
+        </p>
+        <p class="gray">
+          A workshop for teachers on designing courses that hold attention, with live
+          demonstrations drawn from media studies and chemistry teaching. The
+          <a href="https://course-design-workshop.vercel.app">workshop</a> and its
+          <a href="https://github.com/ohwowgreat/course-design-workshop">materials</a> are
+          public.
+        </p>
+      </section>
+
+      <section class="foot">
+        <p>
+          Doğan Arslanoğlu ·
+          <a href="mailto:dogan.arslanoglu@gmail.com">dogan.arslanoglu@gmail.com</a> ·
+          <a href="https://github.com/ohwowgreat">GitHub</a>
+        </p>
+      </section>
+
+    </main>
 
   </div>
+
 </body>
 </html>

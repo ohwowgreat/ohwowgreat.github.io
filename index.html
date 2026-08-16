@@ -12,62 +12,91 @@
   <meta property="og:url" content="https://dogan.education/" />
 
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="wrap">
 
-    <nav class="top" aria-label="Site">
-      <a class="site" href="index.html">Doğan Arslanoğlu</a>
-      <ul>
-        <li><a href="index.html" aria-current="page">About</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="software.html">Software</a></li>
-      </ul>
-    </nav>
+  <div class="topbar">
+    <a href="index.html">Doğan Arslanoğlu</a>
+  </div>
 
-    <header>
-      <!-- Swap this monogram for a photo any time: replace the div below with
-           <img class="avatar" src="portrait.jpg" alt="Doğan Arslanoğlu" /> -->
-      <div class="avatar" aria-hidden="true">DA</div>
-      <h1>Doğan Arslanoğlu</h1>
-      <p class="role">Art and media educator</p>
-    </header>
+  <div class="frame">
 
-    <p class="intro">
-      I teach art, art history, media studies, and design, and I treat my classrooms as places to
-      work out what new media environments mean for the oldest questions in teaching: how young
-      people learn to look closely, read carefully, and make deliberately. Attention, in my
-      classes, is a craft to be practiced rather than a resource to be demanded. In my art history
-      course, essays give way to auction catalogue entries, pitch packages, and journal
-      submissions; in the studio, projects begin with a written intention and end in front of an
-      audience. Students write differently when the reader is someone other than the teacher.
-    </p>
+    <aside class="sidebar">
+      <nav aria-label="Site">
+        <div class="group">
+          <ul>
+            <li><a href="index.html" aria-current="page">About</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="software.html">Software</a></li>
+          </ul>
+        </div>
+        <div class="group group-extra">
+          <p class="nav-label">Projects</p>
+          <ul>
+            <li><a href="https://classroomtools.io">classroomtools.io</a></li>
+            <li><a href="https://curatewith.art">curatewith.art</a></li>
+            <li><a href="https://lms-app-lime-eight.vercel.app">Cadence LMS</a></li>
+            <li><a href="https://github.com/ohwowgreat/Lockdown-Browser">ExamLock</a></li>
+          </ul>
+        </div>
+        <div class="group group-extra">
+          <p class="nav-label">Elsewhere</p>
+          <ul>
+            <li><a href="https://github.com/ohwowgreat">GitHub</a></li>
+            <li><a href="mailto:dogan.arslanoglu@gmail.com">Email</a></li>
+          </ul>
+        </div>
+      </nav>
+    </aside>
 
-    <p class="intro">
-      The same instincts make me a builder and a researcher. When a lesson needs an instrument
-      that does not exist, I write it myself, and the results are collected at
-      <a href="https://classroomtools.io">classroomtools.io</a>: small pieces of software for
-      annotating a text together, arranging images into constellations, and seeing where a class
-      looks first. <a href="https://classroomtools.io/research">Teaching After the Feed</a>, an
-      action-research project run inside my own classroom, asks what algorithmic culture changes
-      about all of this.
-    </p>
+    <main>
 
-    <p class="intro">
-      This site holds the current state of that work: the
-      <a href="teaching.html">courses</a>, the <a href="research.html">research</a>, and the
-      <a href="software.html">software</a>. Most of it is public, and I like hearing from
-      teachers working on similar problems. Write any time.
-    </p>
+      <section>
+        <p class="kicker">Art and media educator</p>
+        <p>
+          I teach art, art history, media studies, and design, and I treat my classrooms as
+          places to work out what new media environments mean for the oldest questions in
+          teaching: how young people learn to look closely, read carefully, and make
+          deliberately. Attention, in my classes, is a craft to be practiced rather than a
+          resource to be demanded. In my art history course, essays give way to auction
+          catalogue entries, pitch packages, and journal submissions; in the studio, projects
+          begin with a written intention and end in front of an audience. Students write
+          differently when the reader is someone other than the teacher.
+        </p>
+        <p>
+          The same instincts make me a builder and a researcher. When a lesson needs an
+          instrument that does not exist, I write it myself, and the results are collected at
+          <a href="https://classroomtools.io">classroomtools.io</a>: small pieces of software
+          for annotating a text together, arranging images into constellations, and seeing
+          where a class looks first.
+          <a href="https://classroomtools.io/research">Teaching After the Feed</a>, an
+          action-research project run inside my own classroom, asks what algorithmic culture
+          changes about all of this.
+        </p>
+        <p>
+          This site holds the current state of that work: the
+          <a href="teaching.html">courses</a>, the <a href="research.html">research</a>, and
+          the <a href="software.html">software</a>. Most of it is public, and I like hearing
+          from teachers working on similar problems. Write any time.
+        </p>
+      </section>
 
-    <footer>
-      <a href="mailto:dogan.arslanoglu@gmail.com">dogan.arslanoglu@gmail.com</a>
-      &nbsp;·&nbsp;
-      <a href="https://github.com/ohwowgreat">GitHub</a>
-    </footer>
+      <section class="foot">
+        <p>
+          Doğan Arslanoğlu ·
+          <a href="mailto:dogan.arslanoglu@gmail.com">dogan.arslanoglu@gmail.com</a> ·
+          <a href="https://github.com/ohwowgreat">GitHub</a>
+        </p>
+      </section>
+
+    </main>
 
   </div>
+
 </body>
 </html>
