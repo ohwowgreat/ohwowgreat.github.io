@@ -75,7 +75,7 @@ main {
   padding: 0.75rem 6rem 6rem 2.5rem;
 }
 
-main section { margin: 0 0 2rem; }
+main section { margin: 0 0 2rem; scroll-margin-top: 3rem; }
 main section:last-child { margin-bottom: 0; }
 
 p { margin: 0 0 0.75rem; }
